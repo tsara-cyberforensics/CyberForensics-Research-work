@@ -1,0 +1,73 @@
+DDoS Attacks: Types and Traditional Mitigation Methods
+
+What Is a DDoS Attack?
+A Distributed Denial-of-Service (DDoS) attack is an illegal campaign where multiple infected computers (botnet) bombard a target server, service, or network with an overwhelming amount of traffic, rendering it inaccessible to its rightful users. Modern attacks consist of hundreds of thousands of devices—along with IoT devices—collaborating with each other, inflicting immense disruption and financial loss.[1]
+
+- Motivation: Financial extortion, revenge, hacktivism, political activism, or damage to reputation.[1]
+- Impact: Outages, damage to reputation, financial loss.
+
+Notable DDoS Attack Categories
+
+1. Volume-Based Attacks
+- Purpose: Overwhelm bandwidth with a massive amount of data (Gbps/Tbps scale).
+- Methods: UDP Flood, ICMP Flood (ping), SYN Flood, Spoofed-Packet Floods, packet fragments.
+- Example: Mirai botnet, which infected IoT devices to create massive network traffic.
+
+2. Protocol-Based Attacks
+- Purpose: Take advantage of weaknesses in network protocol processes.
+- Methods: SYN Flood (partial TCP handshakes), Ping of Death, Smurf attack, Land attack (packets sent with the same source/destination IPs), ARP Spoofing precursors.
+- Effect: Drain server resources (memory/CPU), exploit vulnerabilities.
+
+3. Application-Layer Attacks
+- Goal: Exploit vulnerabilities at the software/application layer.
+- Methods: HTTP flooding, Slowloris (keeps many HTTP connections open), malformed requests, hash collision, regular expression attacks.
+- Effect: Web server/app overload, DoS for legitimate users.
+
+Legacy DDoS Mitigation Techniques
+Let's discuss these step by step. Can you already come up with strengths or weaknesses?
+
+1. Filtering and Firewalls
+- Network firewalls and Web Application Firewalls (WAF) deny traffic based on rules (IP deny lists, protocol restrictions) and signatures.
+- Limitation: Overwhelmed by bulk floods and may produce false positives, correctly blocking good traffic.
+
+2. Intrusion Detection and Prevention Systems (IDS/IPS)
+- IDS: Checks traffic for known signatures or out-of-profile activity—can be host-based or network-based.
+- IPS: Drops suspected malicious traffic automatically in real-time.
+- Limitation: High false-positive rates, low detection of new/low-rate attacks, and may need periodic manual tuning.[1]
+
+3. Rate Limiting
+- Throttles traffic to IP/user to limits.
+- Limitation: Attackers use distributed sources (botnets) to evade rate limits. Legitimate bursts can be blocked.
+
+4. Resource Allocation & Redundancy
+- Load balancers and content delivery networks (CDNs) distribute traffic to minimize impact on a single server.
+- Geo-distributed infrastructures are redundant.
+- Limitation: Attacks can strike CDNs or fill in all entry points; expensive to scale globally.
+
+5. Blacklists/Whitelists
+- Use of up-to-date deny/allow lists for recognized malicious/legitimate IPs.
+- Limitation: IP spoofing, increased botnet development can bypass static lists.
+
+6. Honeypots
+- Deploy dummy systems to trap and monitor attacks to improve defense.
+- Limitation: Not suitable in real-time; more for monitoring purposes.
+
+7. Manual/Organized Response Plans
+- Proactive training and pre-established incident response plans.
+- Ongoing monitoring and software patches to seal vulnerabilities.
+- Limitation: Human intervention might be too late for real-time defense.
+
+8. Machine Learning and Behavior-Based Detection (More Recent Traditional)
+- ML classifiers trained on typical and anomalous traffic to identify subtle attacks, especially zero-day attacks.[1]
+- Limitation: May require large, high-quality datasets and ongoing retraining.
+- Quick note: More recent approaches use ensemble ML, deep learning, and even incorporate blockchain—those are addressed in advanced sections.
+
+Summary Mnemonic: "FORCHaM"
+- Filtering (firewalls)
+- Organized planning (training/staff)
+- Rate limiting
+- CDN/load balancing (redundancy)
+- Honeypots
+- aMachine learning
+
+ 

@@ -18,7 +18,7 @@ Traditional Mitigation Approaches
 
 Key Table: DDoS Types vs Defenses
 
-| Attack Type         | Legacy Method       | Limitation                   |
+| Attack Type         | Legacy Method       | Limitation                    |
 |---------------------|---------------------|-------------------------------|
 | Volume-based        | CDN, Firewall       | Bandwidth overload            |
 | Protocol-based      | Firewall, IPS       | Protocol spoofing/complexity  |
@@ -47,7 +47,7 @@ Advanced Integration
 
 | Ref/Paper                                               | Method/Tech Stack        | Mitigation Mechanism                        | Metrics               | Weaknesses                | Novelty/Future Scope             |
 |---------------------------------------------------------|-------------------------|--------------------------------------------|-----------------------|---------------------------|-----------------------------------|
-| Zawar Shah et al. (IoT Survey)                          | Blockchain, IoT         | Distributed control, blacklist sharing     | -                     | Data reliability, contract security | Full taxonomy, focus on IoT+BC   |
+| Zawar Shah et al. (IoT Survey)                          | Blockchain, IoT         | Distributed control, blacklist sharing     | -                     | Data reliability, contract security | Full taxonomy, focus on IoT+BC|
 | Petar Radanliev (MPRA/Cyberregulation)                  | Regulatory survey       | NIST/ISO/ENISA best practices              | Regulatory coverage   | Gaps in global standards  | Technical/policy convergence      |
 | Hansa Vaghela et al. (Suricata IPS)                     | Private Ethereum, IPS   | IDS+IPS blacklist, smart contracts         | Blocked packets/sec   | Config complexity, scale  | Proven in HTTP flood simulation   |
 | Kamaleswari et al. (IIoT Deep Learning)                 | CNN, BiLSTM, FL, BC     | Real-time detection at edge, logging       | Accuracy (>95%), F1   | Resource cost, dataset scope | Federated privacy and edge defense|
@@ -110,7 +110,7 @@ Unaddressed Research Gaps
 
 8. Comparative Summary Table: Technologies & Approaches
 
-| Technology/Approach            | Best for               | Weakness              | Notable Solution    |
+| Technology/Approach           | Best for              | Weakness             | Notable Solution  |
 |-------------------------------|------------------------|-----------------------|--------------------|
 | SDN + Blockchain              | Fast collaborative defense | SDN controller bottlenecks | CREDIT, Cochain-SC |
 | Machine/Deep Learning + BC    | Zero-day, anomaly detection | Resource cost, training data | CNN-BiLSTM, FL, ensemble |

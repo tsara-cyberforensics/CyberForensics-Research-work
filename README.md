@@ -205,11 +205,11 @@ Unaddressed Research Gaps
 
 7. Latest Research Directions 
 
-- Hybrid AI-Blockchain-SDN defense architectures for collaborative, layered DDoS response
-- Federated deep learning for privacy-preserving real-time DDoS detection (IIoT, edge networks)
-- Blockchain-enabled incentive systems to encourage information sharing for attack defense (e.g., SoChain tokens)
-- Large-scale performance testing with >6000 nodes and real attack simulations [1][3]
-- Integration with regulatory frameworks to address compliance and forensic traceability
+- Hybrid AI-Blockchain-SDN defense architectures for collaborative, layered DDoS response.
+- Federated deep learning for privacy-preserving real-time DDoS detection (IIoT, edge networks).
+- Blockchain-enabled incentive systems to encourage information sharing for attack defense.
+- Large-scale performance testing with >6000 nodes and real attack simulations.
+- Integration with regulatory frameworks to address compliance and forensic traceability.
 
 8. Comparative Summary Table: Technologies & Approaches
 

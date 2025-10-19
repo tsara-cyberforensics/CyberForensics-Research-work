@@ -203,7 +203,7 @@ Unaddressed Research Gaps
 - Integration: Multi-tech architectures: 5G/6G, SDIoT, edge, federated learning.
 - Regulatory & Market Risks: More international harmonization needed.
 
-7. Latest Research Directions (2025)
+7. Latest Research Directions 
 
 - Hybrid AI-Blockchain-SDN defense architectures for collaborative, layered DDoS response
 - Federated deep learning for privacy-preserving real-time DDoS detection (IIoT, edge networks)

@@ -160,14 +160,7 @@ Advanced Integration
       <td>Lacks collaborative features</td>
       <td>Pushback via blockchain</td>
     </tr>
-    <tr>
-      <td>Others: Recent IEEE/Elsevier/PMC surveys</td>
-      <td>SDN+BC, AI ensembles, Ethereum</td>
-      <td>Accuracy, speed</td>
-      <td>SDN delay, rule evasion</td>
-      <td>Large node-scale experiments</td>
-      <td></td>
-    </tr>
+    
   </tbody>
 </table>
 

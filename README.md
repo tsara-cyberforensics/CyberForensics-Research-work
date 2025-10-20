@@ -194,16 +194,7 @@ Weaknesses
 - The outcome of the tradeoff is between security and performance as blockchain networks might result in increased latency.
 - These kinds of attacks are hard to defend against as they impersonate legitimate traffic and do not provide for flow-based rules.
 
-Research Gaps:
-
-- Scalability: Large-scale daily deployment auditing.
-- Comprehensive Defense: Solutions where prevention, detection, and mitigation are seamlessly integrated.
-- Advanced Attack Types: The topical threats that have only been superficially studied (Layer 7, slow/low attacks, mempool/DNS amplification, sophisticated botnets like Mirai).
-- Smart Contract Security: Implementation defects.
-- Integration: Multi-tech architectures: 5G/6G, SDIoT, edge, federated learning.
-- Regulatory & Market Risks: More international harmonization is needed.
-
-7. Latest Research Directions
+7. Research Directions
 
 - Collaborative, layered DDoS response with Hybrid AI-Blockchain-SDN defense architectures.
 - Federated deep learning for privacy-preserving real-time DDoS detection (IIoT, edge networks).

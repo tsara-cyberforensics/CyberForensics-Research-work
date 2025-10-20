@@ -199,8 +199,6 @@ Weaknesses
 - Collaborative, layered DDoS response with Hybrid AI-Blockchain-SDN defense architectures.
 - Federated deep learning for privacy-preserving real-time DDoS detection (IIoT, edge networks).
 - To incentivize participants sharing information for attack defense, Blockchain-enabled incentive systems.
-- Huge-scale network performance testing with >6000 nodes and real attack simulations.
-- Working on regulatory frameworks to address issues of compliance and forensic traceability.
 - 
 8. Comparative Summary Table: Technologies & Approaches
 

@@ -1,17 +1,16 @@
-
-Introduction
+# Introduction
 
 Along with the rapid growth of the Internet of Things (IoT) and cloud-based applications, a DDoS attack ranks as one of the most dreadful risks to electronic systems of a modern type. Nowadays, the usual central mitigation method is gradually being considered as not enough in cases of fast-evolving and increasing in number botnet-powered attacks. In this regard, blockchain technology, being a decentralized, integrity and audit-friendly system, is one of the best examples that community-based, tamper-resistant DDoS defense together with IoT and SDN technologies can be looked at as a proper infrastructure for a single effect.
 
-DDoS Attack Types & Traditional Mitigation
+# DDoS Attack Types & Traditional Mitigation
 
-Attack Types
+## Attack Types
 
 Volume-based: These are the types of attacks such as UDP Flood, ICMP Flood, SYN Flood, DNS amplification, created to exhaust the bandwidth of the target.
 Protocol-based: These types of attacks include SYN Flood, Smurf, and ARP Spoofing, which exploit the vulnerabilities in the network/transport protocol.
 Application-layer: These types of attack include HTTP Flood, CGI/Hash collision, Slowloris, which concentrate their efforts on web/apps at Layer 7.
 
-Traditional Mitigation Approaches:
+## Traditional Mitigation Approaches:
 
 Firewalls & IDS/IPS: Function on signatures/behaviors and are weak against huge volumes of attacks.
 Rate Limiting & Blacklists: Are good tools at a small scale, but the botnets can easily get around them.
@@ -28,7 +27,7 @@ Key Table: DDoS Types vs Defenses
 | Protocol-based      | Firewall, IPS       | Protocol spoofing/complexity  |
 | App-layer           | WAF, Signature IDS  | Evasion via legitimate traffic|
 
-3. Role & Mechanism of Blockchain in DDoS Mitigation
+# Role & Mechanism of Blockchain in DDoS Mitigation
 
 - Decentralization: The point of failure of the single sever is removed - security logic runs on multiple, distributed nodes.
 - Immutability: Forensic logging - the whole attack trail cannot be changed or deleted.
@@ -49,7 +48,7 @@ Advanced Integration
 - Edge Computing: Places detection/prevention at the network perimeter, records events in blockchain.
 - Hybrid SDN+Blockchain+AI: For example, Mirai defense, IoT botnet containment.
 
-4. Comparative Table: Surveyed Papers & Approaches
+# Comparative Table: Surveyed Papers & Approaches
 
 
 <table>
@@ -164,8 +163,7 @@ Advanced Integration
   </tbody>
 </table>
 
-
-5. Key Metrics for Evaluation
+# Key Metrics for Evaluation
 
 - Detection performance (ROC, F1, precision, recall)
 - Time of mitigation (block time, traffic blocking rates)
@@ -176,7 +174,7 @@ Advanced Integration
 - Deployment cost/complexity
 - Compliance/regulatory compatibility (NIST, ISO, MiCA)
 
-6. Strengths, Weaknesses, and Research Gaps
+# Strengths, Weaknesses, and Research Gaps
 
 Strengths
 
@@ -194,13 +192,13 @@ Weaknesses
 - The outcome of the tradeoff is between security and performance as blockchain networks might result in increased latency.
 - These kinds of attacks are hard to defend against as they impersonate legitimate traffic and do not provide for flow-based rules.
 
-7. Research Directions
+# Research Directions
 
 - Collaborative, layered DDoS response with Hybrid AI-Blockchain-SDN defense architectures.
 - Federated deep learning for privacy-preserving real-time DDoS detection (IIoT, edge networks).
 - To incentivize participants sharing information for attack defense, Blockchain-enabled incentive systems.
 - 
-8. Comparative Summary Table: Technologies & Approaches
+# Comparative Summary Table: Technologies & Approaches
 
 | Technology/Approach           | Best for              | Weakness             | Notable Solution  |
 |-------------------------------|------------------------|-----------------------|--------------------|

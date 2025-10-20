@@ -2,6 +2,8 @@
 
 Along with the rapid growth of the Internet of Things (IoT) and cloud-based applications, a DDoS attack ranks as one of the most dreadful risks to electronic systems of a modern type. Nowadays, the usual central mitigation method is gradually being considered as not enough in cases of fast-evolving and increasing in number botnet-powered attacks. In this regard, blockchain technology, being a decentralized, integrity and audit-friendly system, is one of the best examples that community-based, tamper-resistant DDoS defense together with IoT and SDN technologies can be looked at as a proper infrastructure for a single effect.
 
+**50% Implementation Video - https://youtu.be/Rvy-MrXzISs**
+
 # DDoS Attack Types & Traditional Mitigation
 
 ## Attack Types

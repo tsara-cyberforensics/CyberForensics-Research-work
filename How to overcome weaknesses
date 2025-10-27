@@ -45,7 +45,7 @@ REST APIs to decouple the ML detection component and the SDN controller.  
 
 Smart contracts enforce automations in auditing activities, control of blacklists and whitelists, and coordination of bans on malicious actors.  
 
-Lab Implementation to Thousands of IoT Nodes. 
+2.Lab Implementation to Thousands of IoT Nodes. 
 
 Challenge 
 
@@ -92,7 +92,7 @@ Integration:
 
 -Atomix, RAFT Clustering or distributed Zookeeper.  
 
-5.Smart Contract Vulnerabilities.  
+4.Smart Contract Vulnerabilities.  
 
 Problems.  
 
@@ -120,7 +120,7 @@ Tracking/audit of the contract workflow should be introduced before network depl
 
 Frameworks/Tools Solidity (Ethereum), Fabric Chaincode (Hyperledger), Mythril, Slither, OpenZeppelin Defender and Chain Fabric.  
 
-Performance (Blockchain latency) vs Security  
+5.Performance (Blockchain latency) vs Security  
 
 Problem:  
 

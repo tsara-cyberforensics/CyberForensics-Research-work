@@ -1,4 +1,4 @@
-1. Protection against DDoS Attacks: Combined Detection and Prevention Systems. 
+#1. Protection against DDoS Attacks: Combined Detection and Prevention Systems. 
 
 Current Problem: Systems can detect DDoS attacks, but cannot offer a real-time or automated mitigation strategy once the attack has been detected. Mitigation systems frequently damage a system even once attack has been identified.  
 
@@ -45,7 +45,7 @@ REST APIs to decouple the ML detection component and the SDN controller.  
 
 Smart contracts enforce automations in auditing activities, control of blacklists and whitelists, and coordination of bans on malicious actors.  
 
-2.Lab Implementation to Thousands of IoT Nodes. 
+#2.Lab Implementation to Thousands of IoT Nodes. 
 
 Challenge 
 
@@ -67,7 +67,7 @@ The local responses of each local Internet of Things (IoT) area are put into pra
 
 
 
-3. SDN Controller Bottlenecks
+#3. SDN Controller Bottlenecks
 Problem:
 
 One of the critical failure points (traffic spike) is the possibility of centralized SDN Controller being overloaded.
